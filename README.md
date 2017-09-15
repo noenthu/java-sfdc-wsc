@@ -24,7 +24,8 @@ git clone https://github.com/noenthu/java-sfdc-wsc.git && cd java-sfdc-wsc
 
 Build the Project
 ```
-mvn clean package
+mvn clean
+mvn package
 ```
 
 
