@@ -22,10 +22,14 @@ Clone this repo
 git clone https://github.com/noenthu/java-sfdc-wsc.git && cd java-sfdc-wsc
 ```
 
+If behind a proxy open App.java and uncomment the config set Proxy
+```
+config.setProxy("<yourproxyurl>", <proxyport>);
+```
+
 Build the Project
 ```
 mvn clean
 mvn package
 ```
-
 

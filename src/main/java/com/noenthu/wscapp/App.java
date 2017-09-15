@@ -22,6 +22,14 @@ public class App
             config.setUsername(USERNAME);
             config.setPassword(PASSWORD);
 
+            // set proxy if required
+            //config.setProxy("10.10.5.18", 8080);
+
+
+            // additional proxy params if required
+            //config.setProxyUsername("");
+            //config.setProxyPassword("");
+
             PartnerConnection connection = Connector.newConnection(config);
             SObject account = new SObject();
             account.setType("Account");
