@@ -22,6 +22,7 @@
       <version>40.0.0</version>
     </dependency>
 
+    <!-- Use the following to add "mvn install:install-file -Dfile=../test/partner_stub.jar -DgroupId=com.sforce.soap.partner -DartifactId=partner_stub -Dversion=1.0.0.0 -Dpackaging=jar -DgeneratePom=true" -->
     <dependency>
       <groupId>com.sforce.soap.partner</groupId>
       <artifactId>partner_stub</artifactId>
@@ -33,6 +34,7 @@
   <plugins>
     <plugin>
       <!-- Build an executable JAR -->
+      <!-- Run using mvn exec:java -Dexec.mainClass="com.noenthu.wscapp.App" -->
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jar-plugin</artifactId>
       <version>3.0.2</version>
