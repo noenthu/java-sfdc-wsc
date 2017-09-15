@@ -1,4 +1,4 @@
-# Sample Project to call SFDC SOAP API using Partner WSDL from JAva
+# Sample Project to call SFDC SOAP API using Partner WSDL from Java
 
 ## DESCRIPTION
 
