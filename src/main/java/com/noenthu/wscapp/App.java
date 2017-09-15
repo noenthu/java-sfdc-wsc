@@ -11,13 +11,16 @@ import com.sforce.ws.*;
  */
 public class App 
 {
+    static final String USERNAME = "YourUserNameHere";
+    static final String PASSWORD = "YourPassWordAndTokenHere";
+
     public static void main( String[] args )
     {
         try {
             ConnectorConfig config = new ConnectorConfig();
 
-            config.setUsername("yourusernamehere");
-            config.setPassword("yourpasswordhere");
+            config.setUsername(USERNAME);
+            config.setPassword(PASSWORD);
 
             PartnerConnection connection = Connector.newConnection(config);
             SObject account = new SObject();
