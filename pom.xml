@@ -28,6 +28,14 @@
       <version>1.0.0.0</version>
     </dependency>
 
+    <!-- Sinc we are using a generic partner wsdl, may not need to build our own jar from the wsdl -->
+    <!-- https://mvnrepository.com/artifact/com.force.api/force-partner-api -->
+    <!--<dependency>
+        <groupId>com.force.api</groupId>
+        <artifactId>force-partner-api</artifactId>
+        <version>40.0.0</version>
+    </dependency>-->
+
     <!-- Use the following to add "mvn install:install-file -Dfile=../test/partner_stub.jar -DgroupId=com.sforce.soap.partner -DartifactId=partner_stub -Dversion=1.0.0.0 -Dpackaging=jar -DgeneratePom=true" -->
     <!--<dependency>
       <groupId>com.sforce.soap.partner</groupId>
